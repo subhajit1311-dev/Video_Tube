@@ -17,3 +17,5 @@
 ## 📌 Why Use asyncHandler?
 #### Express doesn’t automatically catch errors in async functions...The asyncHandler function is a higher-order function (a function that returns another function) designed to handle asynchronous errors in Express middleware and route handlers.
 
+## why we use mongooseAggregatePaginate?
+#### What is it? Ans: A plugin for paginating aggregation queries in Mongoose.Why use it?Ans: Prevents loading all data at once, making queries efficient.How to use?Ans:-  Add .plugin(mongooseAggregatePaginate) to the schema and use aggregatePaginate().
