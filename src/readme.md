@@ -19,3 +19,6 @@
 
 ## why we use mongooseAggregatePaginate?
 #### What is it? Ans: A plugin for paginating aggregation queries in Mongoose.Why use it?Ans: Prevents loading all data at once, making queries efficient.How to use?Ans:-  Add .plugin(mongooseAggregatePaginate) to the schema and use aggregatePaginate().
+
+## what is cookie-parser?
+#### The middleware will parse the Cookie header on the request and expose the cookie data as the property req.cookies and, if a secret was provided, as the property req.signedCookies. These properties are name value pairs of the cookie name to cookie value.
